@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "dependabot-race-condition"
 version = "0.0.0"
-description = "Reproduce a race-condition with dependabot PRs being based on HEAD^ after the first PR auto-merges\u001b[F"
+description = "Reproduce a race-condition with dependabot PRs being based on HEAD^ after the first PR auto-merges"
 authors = ["Howard Cox <dev.anubis@gmail.com>"]
 readme = "README.md"
 packages = [{include = "test", from = "src"}]
