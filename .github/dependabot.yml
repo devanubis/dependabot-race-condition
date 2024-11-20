@@ -8,7 +8,7 @@ updates:
       - "devanubis"
     schedule:
       interval: "daily"
-      time: "12:06"
+      time: "12:15"
       timezone: "Europe/London"
     open-pull-requests-limit: 1
     insecure-external-code-execution: allow # apparently pip executes code see https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#insecure-external-code-execution
