@@ -1,0 +1,15 @@
+name: CI
+on:
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check-up-to-date:
+    name: Check up to date with base branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: scene-connect/actions/check-pr-up-to-date@v5

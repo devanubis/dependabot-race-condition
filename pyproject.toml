@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dependabot-race-condition"
+version = "0.0.0"
+description = "Reproduce a race-condition with dependabot PRs being based on HEAD^ after the first PR auto-merges\u001b[F"
+authors = ["Howard Cox <dev.anubis@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+pydantic = "^2.9.0"
+httpx = "^0.27.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

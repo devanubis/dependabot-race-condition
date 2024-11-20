@@ -1,0 +1,5 @@
+* @devanubis
+
+# Permit changes to poetry.lock ONLY to not require a codeowner review (e.g. Dependabot)
+poetry.lock
+pyproject.toml
